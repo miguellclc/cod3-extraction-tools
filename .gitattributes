@@ -1,0 +1,13 @@
+# Default behavior
+# Configuration for git attributes
+go.sum linguist-generated
+*.yaml linguist-detectable=false
+src/** linguist-detectable
+yarn.lock linguist-generated
+public/**/*.html linguist-vendored
+
+*.html linguist-vendored
+*.min.css linguist-generated
+*.jpeg binary
+*.png binary
+# eof e1de0981
